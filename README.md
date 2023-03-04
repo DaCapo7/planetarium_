@@ -24,6 +24,7 @@ When you launch the program, the simulation is automatically on pause : here are
 * After adding a few planets you can click on play on the Live Control Pad and the simulation should start
 * You are also able to change the time speed with "+" and "-" button at the top of the LCP
 * Click apply after all changes on LCP except for "play" and "pause"
+* Now you can change the scale of the simulation by scrolling and even move the camera with arrows
 
 ## Functionning
 At each frame, each planet's speed vector is edited according to all gravitational interactions with all other planets using newton laws. Every time a collision happens, elastic collision rules are applied (no energy is lost). The program is multi-threaded : thread-1 is for the simultation and thread-2 is for the LCP (otherwise tkinter (that hanles LCP) stops pygame (that handles the simulation))
@@ -31,5 +32,7 @@ At each frame, each planet's speed vector is edited according to all gravitation
 ## Demo
 > Here is a little demo of the program on my computer (reload the page if it doesn't work)
 
-https://user-images.githubusercontent.com/72820204/188311897-6b51b95d-b95d-4d1d-b9d6-a4aaf4af0c97.mp4
+
+https://user-images.githubusercontent.com/72820204/222918934-02b607f3-d61f-494b-8059-656bd6980874.mp4
+
 
